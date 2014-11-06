@@ -5,3 +5,24 @@ body, html{
   margin: 0 auto;
   margin-top: 10%;
 }
+.img-responsive{
+  display: inline;
+}
+.contact-info {
+}
+.contact-info li{
+  list-style:none;
+  display:inline;
+  border-right: 1px solid #000;
+  padding-right: 3px;
+  margin-right: 6px;
+}
+.contact-info li:last-child{
+  border:0;
+}
+@media (max-width: 420px){
+  .contact-info li{
+    display:block;
+    border:0;
+  }
+}
